@@ -1,4 +1,4 @@
-# ai-whatsapp-gym-crm# AI WhatsApp Gym CRM Automation
+# GymCRM AI WhatsApp Automation System
 
 An AI-powered WhatsApp Gym Lead Automation & CRM System built using:
 
