@@ -1,0 +1,92 @@
+import { Lead } from "@/components/dashboard/leads-table";
+
+export const dummyLeads: Lead[] = [
+  {
+    id: "1",
+    name: "Sarah Johnson",
+    phone: "+1 (555) 123-4567",
+    goal: "Weight Loss",
+    level: "Beginner",
+    state: "New",
+  },
+  {
+    id: "2",
+    name: "Michael Chen",
+    phone: "+1 (555) 234-5678",
+    goal: "Muscle Building",
+    level: "Intermediate",
+    state: "Interested",
+  },
+  {
+    id: "3",
+    name: "Emily Rodriguez",
+    phone: "+1 (555) 345-6789",
+    goal: "General Fitness",
+    level: "Beginner",
+    state: "Trial Booked",
+  },
+  {
+    id: "4",
+    name: "David Thompson",
+    phone: "+1 (555) 456-7890",
+    goal: "Strength Training",
+    level: "Advanced",
+    state: "Converted",
+  },
+  {
+    id: "5",
+    name: "Jessica Martinez",
+    phone: "+1 (555) 567-8901",
+    goal: "Cardio Endurance",
+    level: "Intermediate",
+    state: "Interested",
+  },
+  {
+    id: "6",
+    name: "Ryan Wilson",
+    phone: "+1 (555) 678-9012",
+    goal: "Weight Loss",
+    level: "Beginner",
+    state: "New",
+  },
+  {
+    id: "7",
+    name: "Amanda Lewis",
+    phone: "+1 (555) 789-0123",
+    goal: "Flexibility",
+    level: "Beginner",
+    state: "Trial Booked",
+  },
+  {
+    id: "8",
+    name: "Chris Anderson",
+    phone: "+1 (555) 890-1234",
+    goal: "Bodybuilding",
+    level: "Advanced",
+    state: "Converted",
+  },
+  {
+    id: "9",
+    name: "Lauren Taylor",
+    phone: "+1 (555) 901-2345",
+    goal: "Toning",
+    level: "Intermediate",
+    state: "Interested",
+  },
+  {
+    id: "10",
+    name: "Kevin Brown",
+    phone: "+1 (555) 012-3456",
+    goal: "Athletic Performance",
+    level: "Advanced",
+    state: "Trial Booked",
+  },
+];
+
+export const stats = {
+  totalLeads: 247,
+  interestedLeads: 89,
+  trialBooked: 34,
+  convertedMembers: 156,
+  supportRequests: 12,
+};
